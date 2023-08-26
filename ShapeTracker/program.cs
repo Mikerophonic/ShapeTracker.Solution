@@ -1,7 +1,14 @@
-class Program
+using System;
+using ShapeTracker.Models;
+
+namespace ShapeTracker
 {
-  static void Main()
-  {
-    // We'll add user interface code here.
-  }
+    class Program
+    {
+        static void Main()
+        {
+            Triangle testTriangle = new Triangle();
+            Console.WriteLine(testTriangle.GetType());
+        }
+    }
 }
